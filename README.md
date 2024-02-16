@@ -31,7 +31,7 @@ In this assignment, you will implement a cononical model-free reinforcement lear
 
 1. **Tabular Q-Learning:** Implement the tabular Q-Learning algorithm on the FrozenLake environment.  
     (a). Plot $G_k$, where $G_k$ is the cumulative reward obtained in episode $k$. Use a sliding window averaging to obtain smooth plots.  
-    (b). Plot $||Q_k-Q^*||,$ where $Q_k$ is the Q-value during the $k^{\mathrm{th}}$ iteration, and $Q^*$ is the optimal Q-value function obtained from QVI in your Assignment 1.    
+    (b). Plot $\lVert Q_k-Q^* \rVert$, where $Q_k$ is the Q-value during the $k^{\mathrm{th}}$ iteration, and $Q^*$ is the optimal Q-value function obtained from QVI in your Assignment 1.    
     (c). What is the policy and Q-value function obtained at the end of the learning? Are you able to learn the optimal policy?  
 
 2. **Behavior Policy:** Implement tabular Q-learning with  a uniformly random policy (where each action is taken with equal probability) as the behavior policy. Compare the convergence with the $\epsilon$-greedy exploration approach. Explain your observations and inference. Can you implement a better behavior policy and show its effectiveness?  
