@@ -1,7 +1,7 @@
 # ECEN743-SP24-HW02
 
 ## Correction (as of Feb 22)
-We realize that we can generate more informative plots if we don't discount the rewards when calculating the cumulative episodic reward since with discounting, the cumulative reward becomes numerically too small. There is change only in one line: in Problem 1, before `path_k.append(ns_t)`, please modify `G_k += (gamma ** t) * r_t` to `G_k += r_t`. Thank you.
+We realize that we can generate more informative plots if we don't discount the rewards when calculating the cumulative episodic reward since with discounting, the cumulative reward becomes numerically too small. There is change only in one line: in Problem 1, before `path_k.append(ns_t)`, please modify `G_k += (gamma ** t) * r_t` to `G_k += r_t`.
 
 ## Overview
 
